@@ -1,0 +1,16 @@
+@import "./typo";
+@import "./ver&mixing";
+@import "./reset";
+
+html {
+  font-size: 14px;
+}
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  // line-height: 1.7;
+}
+

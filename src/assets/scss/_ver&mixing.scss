@@ -1,0 +1,110 @@
+$text: #000;
+$secondary: #28e98c;
+$main: #1f1f1f;
+$lightgrey: #999;
+$blue: #0b72cc;
+$lightBlue: #c3e3ff;
+$pink:#ff247b;
+@mixin center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin center-flx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flx-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+
+
+// button scss
+.custome-btn {
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.submit-btn {
+    background-color: #aeb5bd;
+    color: #fff;
+    border-radius: 12px;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+.pointer {
+  cursor: pointer;
+}
+
+//Background scss
+.bg-red-blue-gradient{
+    background: linear-gradient(90deg,#ffe6f0,#e6f1fe 50.88%,#e4f2ff)
+}
+.bg-blue {
+    background-color: $lightBlue;
+  }
+
+
+
+
+//font scss
+.text-md{
+    font-size: 1.125rem;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+.text-blue {
+    color: $blue;
+}
+.text-pink{
+    color: $pink;
+}
+.text-12{
+    font-size: 12px !important;
+    line-height: 1.2;
+}
+.text-big{
+    font-size: calc(100% + .2em);
+    font-weight: 700;
+    color: #1f314a;
+    line-height: 26px;
+}
+.text-line15{
+    line-height: 2.5;
+}
+.text-tagline {
+    font-size: calc(100% + .6em);
+    line-height: 40px;
+    font-weight: 700;
+    color: #1f314a;
+}
+
+
+
+
+// input 
+.input-height {
+    height: 48px!important;
+}
+
+
+
+  .custome-login-crousel{
+    width: 25vw;
+    margin: 0 auto;
+}
+.custome-jodi-crousel{
+    width: 100%;
+    margin: 0 auto;
+}

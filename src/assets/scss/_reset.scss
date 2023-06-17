@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 14px;
+}
+body {
+  position: relative;
+  // background-color: $main;
+  color:$text;
+}
+textarea {
+  resize: none;
+}
+ul,
+li,
+ol {
+  text-decoration: none;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: $text;
+  &:hover {
+    color: $text;
+    
+  }
+}
+li,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+
+
